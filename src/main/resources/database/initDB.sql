@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS counts2
+(
+    id BIGSERIAL PRIMARY KEY NOT NULL,
+    counter BIGINT,
+    last_updated TIMESTAMP
+);

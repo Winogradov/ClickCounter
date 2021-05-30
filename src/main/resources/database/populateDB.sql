@@ -1,0 +1,2 @@
+INSERT INTO counts2 (id, counter) VALUES (1,0)
+ON CONFLICT DO NOTHING;
